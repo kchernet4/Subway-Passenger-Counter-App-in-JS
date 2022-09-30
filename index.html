@@ -4,15 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- connecting this html file to a css file called "index.css" -->
     <link rel="stylesheet" href="index.css">
     <title>Passenger Counter App</title>
 </head>
 <body>
+    
     <h1>People Entered:</h1>
+    <!-- an h2 tag that displays the count of passengers -->
     <h2 id="currentCount">0</h2>
+    <!-- a button that increases the count by one, it uses the "increment()" function from javascript -->
     <button id="incrementBtn" onclick="increment()">INCREMENT</button>
+    <!-- a button that saves the current count value. it uses the the "save()" function from javascript --> 
     <button id="saveBtn" onclick="save()">SAVE</button>
     <p id="previousEntries">Previous entries: </p>
+    <!-- connecting this html file to javascript file called "index.js" -->
     <script src="index.js">
     </script>
 </body>
